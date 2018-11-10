@@ -1,0 +1,6 @@
+demo:
+  datasource:
+    primary:
+      url: jdbc:h2:./data/primary
+    secondary:
+      url: jdbc:sqlite:./data/secondary.db
